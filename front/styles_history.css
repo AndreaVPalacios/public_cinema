@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Berlin Sans FB", sans-serif;
+  background-color: antiquewhite;
+  color: #800020; /* Vinotinto */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+h1 {
+  font-family: "Berlin Sans FB", sans-serif;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  padding: 1rem 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-family: "Berlin Sans FB", sans-serif;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.875rem;
+  margin-top: auto;
+  background-color: rgba(128, 0, 32, 0.1);
+}
